@@ -1,0 +1,33 @@
+.ana{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.h2{
+    color: blue !important;
+    font-weight: bold !important;
+    margin-top: 1rem !important;
+}
+
+.icdiv{
+    width: 25rem;
+    height: 25rem;
+    border: 1px rgb(190, 190, 190) solid;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.kayitlidegilmisin{
+    cursor: pointer;
+    color: red;
+    font-weight: 600;
+}
+.input{
+    border-radius: 15px;
+    padding: 3px 8px;
+    border: 1px solid gray;
+    width: 75%;
+    margin-bottom: 1rem;
+}

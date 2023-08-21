@@ -1,0 +1,83 @@
+.navibar{
+    height: 5rem;
+    background-color: crimson;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky !important;
+    top: 0;
+    z-index: 1;
+    
+}
+
+
+.navlink{
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 6px !important;
+
+}
+
+
+.navlink.active{
+    font-weight: bold;
+    font-size: large;
+}
+.typ.a{
+    font-size: 14px !important;
+
+}
+
+.typ.fiyat{
+    font-style: italic;
+    font-size: 10px !important;
+}
+
+.naviicon img{
+    width: 14.5rem;
+}
+.naviicon{
+    width: 14.5rem;
+    position: relative;
+    left: 15px;
+}
+
+
+.links {
+    display: flex;
+    
+}
+.cart{
+    font-size: xx-large;
+    color: white;
+}
+.cartttt{
+
+    align-self: center;
+}
+
+
+.hepsi{
+    cursor: pointer;
+    border: 1px white solid;
+    padding: 3px;
+    border-radius: 10px;
+}
+.sepetim{
+    margin-left: 1rem;
+}
+.sepetim1{
+    color: white;
+    align-self: center;
+}
+
+.typ{
+    color: white;
+    font-size: small !important;
+}
+
+.menu{
+    min-width: 100px;
+}
